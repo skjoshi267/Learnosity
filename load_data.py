@@ -8,8 +8,10 @@ def load_data():
     files_list = [glob.glob(path) for path in file_paths]
     i =  0
     for file in files_list:
-        data.assign_data(i,pd.concat([pd.read_csv(file_name) for file_name in file]))
+        raw_data  = pd.concat([pd.read_csv(file_name,lineterminator = "\n") for file_name in file])
+        data.assign_data(i,raw_data)
         i+= 1
+
 
 
 

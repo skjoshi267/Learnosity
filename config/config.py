@@ -1,7 +1,6 @@
 class Configuration:
     DATA_PATH = "data/"
-    FILES_TO_LOAD = ["sessions-","sessionsquestions-"] #"tags","activites","items"]
-
+    FILES_TO_LOAD = ["sessions-","sessionsquestions-","tags","activities","items"]
 
 class Data:
     sessions = ""
