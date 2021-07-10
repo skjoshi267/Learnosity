@@ -1,2 +1,4 @@
 /data
 /learnosity
+__pycache__/load_data.cpython-38.pyc
+config/__pycache__/config.cpython-38.pyc
