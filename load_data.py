@@ -104,13 +104,6 @@ def run_app(data_obj):
     st.line_chart(filter_data["score_percent"],use_container_width = True)
 
 
-    # demo = alt.Chart(user_data).mark_line().encode(
-    #     x = "tag:N",
-    #     y = "score_percent:Q"
-    # ).interactive()
-    # st.altair_chart(demo,use_container_width = True)
-
-
 
 
 
