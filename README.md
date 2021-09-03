@@ -8,5 +8,7 @@
 
 2. Added StreamLit Integration to provide an insightful dashboard for EDA
 
+3. Ensure the list of packages is available prior to running the program. Refer to **Requirements.txt** file for libraries to be installed. 
+
 ## Execution
-Simply run the file **main.py** from a terminal
+Simply run the file **main.py** from a terminal using the command **streamlit run main.py**
