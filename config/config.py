@@ -41,7 +41,14 @@ class Data:
         self.sessions_db = self.sessions.merge(join_data, on=["session_id","user_id"])
         return self.sessions_db
 
+    def user_data(self,userid):
+        #Filter Sessions Data Based on User
+        user_data = self.sessions_db[self.sessions_db["user_id"] ==  userid]
+        return user_data
+
 class UI:
     sidebar_select = None
     selected = None
+    user_select = None
+    user = None
 
